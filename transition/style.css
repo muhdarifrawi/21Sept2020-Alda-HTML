@@ -1,0 +1,22 @@
+html,body{
+    margin:0;
+    background-color:gray;
+}
+
+#main{
+    height:100vh;
+    width:100vw;
+    background-color:gray;
+}
+
+#square{
+    height:200px;
+    width:200px;
+    background-color:pink;
+    transition-duration:3s;
+}
+
+#square:hover{
+    background-color:purple;
+    width:400px;
+}
